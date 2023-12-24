@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+#game-board {
+    display: flex;
+    background-color: burlywood;/* center the game board */
+    height: 60vh;
+    width: 25vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 20px;
+    justify-content: flex-start;
+    
+}
+
+/* color body */
+body {
+    background-color: bisque;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Silkscreen', cursive;
+}
+
+/* about-game style */
+#about-game {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 20px;
+}
+
+.buttons{
+    display: flex;
+    font-family: 'Silkscreen', cursive;
+
+}
+
+.start-game {
+    display: flex;
+    background-color: burlywood;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 20px;
+}
+
+.start-game:hover, .reset-game:hover {
+    cursor: pointer;
+    color: rgb(32, 28, 28);
+    transform-box: fill-box;
+    transform: scale(1.1);
+}
+
+.reset-game{
+    display: flex;
+    background-color: burlywood;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 20px;
+}
+
+.guess-num{
+    align-items: end;
+    justify-content: end;
+    margin: auto;
+    display: flex;
+}

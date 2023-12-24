@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+    <script src="{% static "script.js" %}" defer></script>
+</head>
+<body>
+    <!-- Title -->
+    <h1>Remainders Game</h1>
+
+    <!-- game board -->
+    <div id="game-board" class="game-board">
+        <table class="game-board rem-table">
+            <tr>
+                <td id="rem rem-2" >Remainder with 2:</td>
+            </tr>
+            <tr>
+                <td id="rem rem-3">Remainder with 3:</td>
+            </tr>
+            <tr>
+                <td id="rem rem-4">Remainder with 4:</td>
+            </tr>
+            <tr>
+                <td id="rem rem-5">Remainder with 5:</td>
+            </tr>
+            <tr>
+                <td id="rem rem-6">Remainder with 6:</td>
+            </tr>
+            <tr>
+                <td id="rem rem-7">Remainder with 7:</td>
+            </tr>
+            <tr>
+                <td id="rem rem-8">Remainder with 8:</td>
+            </tr>
+            <tr>
+                <td id="rem rem-9">Remainder with 9:</td>
+            </tr>
+        </table>
+    </div>
+    
+    <!-- buttons -->
+    <div id="buttons" class="buttons">
+        <button id="start-game" class="buttons start-game">Start</button>
+        <button id="reset-game" class="buttons reset-game">Reset</button>
+    </div>
+
+    
+</body>
+</html>
